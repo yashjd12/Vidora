@@ -13,8 +13,8 @@ const Movie = () => {
     useEffect(() => {
       AWS.config.update({
         region: 'us-east-1',
-        accessKeyId: 'AKIASPLO73TELCGO544H', // Replace with your AWS access key ID
-        secretAccessKey: 'My5WIpN8K1jgHMZuicGhvPdhhvONrUy2zqHBlnSv', // Replace with your AWS secret access key
+        accessKeyId: 'AKIASPLO73TEGMWTRHTM', // Replace with your AWS access key ID
+        secretAccessKey: 'y0edFhq4R/O/gWUcUKxiKW9IOE6/xCa4EBcj5unu', // Replace with your AWS secret access key
       });
   
       const tableName = 'video-metadata'
